@@ -30,7 +30,7 @@ public class Main {
 
         System.out.println("num is of type: " + num.getClass());
 
-        System.out.println("===== Person ======");
+        System.out.println("\n===== Person ======");
 
         // Person is the class we created (the type)
         // firstPerson is the name of the variable (the reference)
@@ -48,8 +48,12 @@ public class Main {
         // this is still a unique value with respect to the second instance of person
         fourthPerson.sayHello();
 
+        System.out.println("\n==== birthday and birthYear methods ====");
+
         System.out.println("Jane will be "+ thirdPerson.birthday() + " years old next year! ");
         System.out.println("Jane was born on " + thirdPerson.birthYear(2021));
+
+        System.out.println("\n==== Getters and Setters ==== ");
 
         System.out.println(thirdPerson.getName());
         thirdPerson.setName("Mary");
