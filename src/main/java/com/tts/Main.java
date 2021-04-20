@@ -75,6 +75,9 @@ public class Main {
         String cry = myDog.getSound();
         System.out.println(cry);
 
+        Animal myPolymorphicDog = new Dog("Rat Terrier ", "Mark", "Bango");
+
+
 
 
 
