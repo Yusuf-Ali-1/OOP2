@@ -16,10 +16,11 @@ public class Main {
 //        Integer num = 5;
 
 
+        System.out.println("\n===== Classes and Objects ===== ");
         //getClass method used to get Class of variables
-        num.getClass();
-        arr.getClass();
-        hashMap.getClass();
+        System.out.println(num.getClass());
+        System.out.println(arr.getClass());
+        System.out.println(hashMap.getClass());
 
 
         // wrapper classes and String can be utilized like primitives
@@ -59,7 +60,7 @@ public class Main {
         thirdPerson.setName("Mary");
         System.out.println(thirdPerson.getName());
 
-        System.out.println("====== Book  =====");
+        System.out.println("\n====== Book  =====");
 
         Book myBook = new Book("Micheal Crichton", "Jurassic Park",
                 1993,"publisher", "science fiction/ thriller");
@@ -67,7 +68,7 @@ public class Main {
         System.out.println(myBook);
 
 
-        System.out.println("====== Dog extends Animal =====");
+        System.out.println("\n====== Dog extends Animal =====");
         Dog myDog = new Dog("Chihuahua mix","Lionel", "Alpo");
         myDog.fetched();
         System.out.println(myDog);
@@ -86,7 +87,9 @@ public class Main {
         // Polymorphism is when objects behave like other objects
         // All dogs are animals but not all animals are dogs
         // in java you can instantiate a variable as the given value's parent
-        // this je;[s me restrict assess to certain feature s of my Dog class
+        // this helps me restrict assess to certain feature s of my Dog class
+        // below is an example of extreme polymorphism
+        //not very useful but demonstrates teh capabilities of polymorphism
         Object otherDog = new Dog("Golden Retriever","Nick", "Ralo");
 
 
