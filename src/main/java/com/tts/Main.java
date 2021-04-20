@@ -36,10 +36,10 @@ public class Main {
         // firstPerson is the name of the variable (the reference)
         // new Person() initialized an instance of Person
 
-        Person firstPerson = new Person("Jane");
+        Person firstPerson = new Person("Josh");
         Person secondPerson = new Person("John");
         Person thirdPerson = new Person("Jane", 45,"London");
-        Person fourthPerson = new Person("John");
+        Person fourthPerson = new Person("Michael", 31);
 
         firstPerson.sayHello();
         secondPerson.sayHello();
@@ -50,6 +50,13 @@ public class Main {
 
         System.out.println("Jane will be "+ thirdPerson.birthday() + " years old next year! ");
         System.out.println("Jane was born on " + thirdPerson.birthYear(2021));
+
+        System.out.println(thirdPerson.getName());
+        thirdPerson.setName("Mary");
+        System.out.println(thirdPerson.getName());
+
+
+
 
     }
 }

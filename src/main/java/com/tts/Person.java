@@ -68,7 +68,22 @@ public class Person {
         return birthYear;
     }
 
-//    public void reallyHardMath(){
+    //getters and setters are traditional methods
+    //
+
+    // getter for name variable
+    public String getName() {
+        return name;
+    }
+
+    // setter for name variable
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+//   public void reallyHardMath(){
 //        answer = (-5 + Math.sqrt(5**2 - 4 * (8*15))/(2 * 8));
 //        System.out.println(answer);
 //    }
