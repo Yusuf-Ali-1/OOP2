@@ -7,6 +7,8 @@ public class Dog extends Animal{
 
 
     public Dog(String breed, String owner, String givenName) {
+        //if you invoke super it must be
+        // the first thing in your constructor
         super("dog","woof");
         this.breed = breed;
         this.owner = owner;
