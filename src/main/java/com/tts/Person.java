@@ -13,6 +13,7 @@ public class Person {
     String name;
     int age;
     String location;
+//    float answer;
     // this constructor is parameterized
     // which means we can pass arguments into it
     public Person (String name, int age, String location){
@@ -50,6 +51,17 @@ public class Person {
     public int birthday(){
         return age + 1;
     }
+    public int birthYear(int currentYear) {
+        int birthYear = currentYear - age;
+        //age is the instance variable
+        //that we have saved
 
+        return birthYear;
+    }
+
+//    public void reallyHardMath(){
+//        answer = (-5 + Math.sqrt(5**2 - 4 * (8*15))/(2 * 8));
+//        System.out.println(answer);
+//    }
 
 }

@@ -49,6 +49,7 @@ public class Main {
         fourthPerson.sayHello();
 
         System.out.println("Jane will be "+ thirdPerson.birthday() + " years old next year! ");
+        System.out.println("Jane was born on " + thirdPerson.birthYear(2021));
 
     }
 }
