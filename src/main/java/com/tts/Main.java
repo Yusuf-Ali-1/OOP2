@@ -120,6 +120,26 @@ public class Main {
         System.out.println("Here are the elements in my student list ");
         System.out.println(studentList);
 
+        Student myStudent2 = new Student("Michael", 20, "NC", 2021);
+        System.out.println(myStudent);
+        myStudent.enrolledStudent();
+        System.out.println(myStudent);
+
+
+        List<Student> studentList1 = new ArrayList<>();
+
+        studentList1.add(myStudent);
+        studentList1.add(new Student("Janice", 32, "NC", 2021));
+
+        System.out.println("Here are the elements in my student list: ");
+//        for (Student student : studentList) {
+//            System.out.println(student);
+//        }
+
+        studentList1.forEach((student) -> System.out.println(student));
+
+        studentList1.add(Student.addStudents("name", 45, 2021));
+
 
 
 

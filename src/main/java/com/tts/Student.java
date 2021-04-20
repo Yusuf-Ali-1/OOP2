@@ -6,38 +6,38 @@ public class Student extends Person{
     private Integer gradYear;
     private boolean enrolled = false;
 
-    public void enrolledStudent(){
+    public void enrolledStudent() {
         enrolled = true;
     }
 
-    public Integer getGradYear() {
-        return gradYear;
-    }
-
-    public void setGradYear(Integer gradYear) {
-        this.gradYear = gradYear;
-    }
-
-    public boolean isEnrolled() {
-        return enrolled;
-    }
-
-    public void setEnrolled(boolean enrolled) {
-        this.enrolled = enrolled;
-    }
-
-    public Student(String name,int age, String location, Integer gradYear) {
+    public Student(String name, int age, String location, Integer gradYear) {
         super(name, age, location);
         this.gradYear = gradYear;
+    }
+
+    public Student() {
 
     }
+
 
     @Override
     public String toString() {
         return "Student{" +
-                "name= " + super.getName() +
-                "gradYear=" + gradYear +
+                "name=" + super.getName() +
+                ", gradYear=" + gradYear +
                 ", enrolled=" + enrolled +
                 '}';
     }
-}
+
+    // this is a factory methods
+    // it will generate object instances for us
+    static Student addStudents(String name, int age, int gradYear) {
+
+//        Student newStudent = new Student("Joe", 34, "NC", 2021);
+//        return newStudent;
+
+        return new Student(name, age, "NC", gradYear);
+
+    }
+
+    }
