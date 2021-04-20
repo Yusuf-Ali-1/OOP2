@@ -48,5 +48,7 @@ public class Main {
         // this is still a unique value with respect to the second instance of person
         fourthPerson.sayHello();
 
+        System.out.println("Jane will be "+ thirdPerson.birthday() + " years old next year! ");
+
     }
 }
