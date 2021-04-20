@@ -24,10 +24,30 @@ public class Person {
         this.location = location;
     }
 
-    //This can be referred to as an empty constructor
-    // and the default constructor
+    public Person(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    public Person(String name){
+
+    }
+
+    // This can be referred to as an empty constructor
+    // and the no args constructor
+    // all the classes have a default constructor
     public Person(){
 
+    }
+
+    public void sayHello(){
+        // for every instance this print out will be unique
+        // specifically because of the instance variable name
+        System.out.println("Hello " + name);
+    }
+
+    public int birthday(){
+        return age + 1;
     }
 
 
