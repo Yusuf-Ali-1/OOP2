@@ -95,10 +95,10 @@ public class Main {
         // this helps me restrict assess to certain feature s of my Dog class
         // below is an example of extreme polymorphism
         //not very useful but demonstrates the capabilities of polymorphism
-        Object otherDog = new Dog("Golden Retriever","Nick", "Ralo");
+        Object otherDog = new Dog("Golden Retriever","Nick", "Good Boy");
 
 
-        System.out.println("===== Fish extends Animal =====");
+        System.out.println("\n===== Fish extends Animal =====");
 
         Fish fishy = new Fish("Nemo", "bloop");
 
