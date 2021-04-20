@@ -36,7 +36,7 @@ public class Main {
         // firstPerson is the name of the variable (the reference)
         // new Person() initialized an instance of Person
 
-        Person firstPerson = new Person();
+        Person firstPerson = new Person("Jane");
         Person secondPerson = new Person("John");
         Person thirdPerson = new Person("Jane", 45,"London");
         Person fourthPerson = new Person("John");
