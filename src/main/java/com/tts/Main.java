@@ -59,6 +59,13 @@ public class Main {
         thirdPerson.setName("Mary");
         System.out.println(thirdPerson.getName());
 
+        System.out.println("====== Book  =====");
+
+        Book myBook = new Book("Micheal Crichton", "Jurassic Park",
+                1993,"publisher", "science fiction/ thriller");
+
+        System.out.println(myBook);
+
 
 
 
