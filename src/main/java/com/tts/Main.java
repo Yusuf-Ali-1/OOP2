@@ -81,7 +81,12 @@ public class Main {
         // my PolymorphicDog doesn't have assess to dog
         // Animal can't be a dog
         // Dog can be an animal
+        // Below isn't possible because only the Dog class as the fetched method
+
+
         //myPolymorphicDog.fetched();
+
+
         System.out.println(myPolymorphicDog.getSound());
 
         // Polymorphism is when objects behave like other objects
@@ -91,6 +96,15 @@ public class Main {
         // below is an example of extreme polymorphism
         //not very useful but demonstrates the capabilities of polymorphism
         Object otherDog = new Dog("Golden Retriever","Nick", "Ralo");
+
+
+        System.out.println("===== Fish extends Animal =====");
+
+        Fish fishy = new Fish("Nemo", "bloop");
+
+        System.out.println(fishy.getSound());
+        System.out.println(fishy.doSwim());
+
 
 
 
