@@ -2,6 +2,7 @@ package com.tts;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -104,6 +105,23 @@ public class Main {
 
         System.out.println(fishy.getSound());
         System.out.println(fishy.doSwim());
+
+        System.out.println("====== Student extends Person =====");
+
+        Student myStudent = new Student("Micheal",22,"Charlette",2019);
+
+        System.out.println(myStudent);
+
+        List<Student> studentList = new ArrayList<>();
+
+        studentList.add(myStudent);
+        studentList.add(new Student("Jane", 32, "Columbus", 2021));
+
+        System.out.println("Here are the elements in my student list ");
+        System.out.println(studentList);
+
+
+
 
 
 
