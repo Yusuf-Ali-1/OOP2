@@ -51,7 +51,16 @@ public class Person {
     public int birthday(){
         return age + 1;
     }
+
+    // methods can come in many forms
+    // below we have a method with parameters that wil return
+    // when a person is born
     public int birthYear(int currentYear) {
+        //birthYear os what is known as a local variable
+        // they are only usuable within the scope of the method
+        // local variables in modern versions of java
+        // can be declared with the keyword var
+        // var birthYear = currentYear - age is legal
         int birthYear = currentYear - age;
         //age is the instance variable
         //that we have saved
