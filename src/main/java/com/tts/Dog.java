@@ -47,4 +47,8 @@ public class Dog extends Animal{
                 ", givenName='" + givenName + '\'' +
                 '}';
     }
+
+    public void fetched(){
+        System.out.println("This dog fetched!");
+    }
 }

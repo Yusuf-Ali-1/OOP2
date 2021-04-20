@@ -67,6 +67,15 @@ public class Main {
         System.out.println(myBook);
 
 
+        System.out.println("====== Dog extends Animal =====");
+        Dog myDog = new Dog("Chihuahua mix","Lionel", "Alpo");
+        myDog.fetched();
+        System.out.println(myDog);
+
+        String cry = myDog.getSound();
+        System.out.println(cry);
+
+
 
 
     }
