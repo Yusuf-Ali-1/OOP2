@@ -83,6 +83,13 @@ public class Main {
         //myPolymorphicDog.fetched();
         System.out.println(myPolymorphicDog.getSound());
 
+        // Polymorphism is when objects behave like other objects
+        // All dogs are animals but not all animals are dogs
+        // in java you can instantiate a variable as the given value's parent
+        // this je;[s me restrict assess to certain feature s of my Dog class
+        Object otherDog = new Dog("Golden Retriever","Nick", "Ralo");
+
+
 
 
 
