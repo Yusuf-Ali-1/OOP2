@@ -89,7 +89,7 @@ public class Main {
         // in java you can instantiate a variable as the given value's parent
         // this helps me restrict assess to certain feature s of my Dog class
         // below is an example of extreme polymorphism
-        //not very useful but demonstrates teh capabilities of polymorphism
+        //not very useful but demonstrates the capabilities of polymorphism
         Object otherDog = new Dog("Golden Retriever","Nick", "Ralo");
 
 
