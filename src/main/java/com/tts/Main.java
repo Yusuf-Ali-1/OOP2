@@ -75,7 +75,12 @@ public class Main {
         String cry = myDog.getSound();
         System.out.println(cry);
 
-        Animal myPolymorphicDog = new Dog("Rat Terrier ", "Mark", "Bango");
+        Animal myPolymorphicDog = new Dog("Rat Terrier ", "Mark", "Bongo");
+
+        // doesn't have assess to dog
+        //Animal can't be a dog
+        // Dog can be an animal
+        //myPolymorphicDog.fetched();
 
 
 
